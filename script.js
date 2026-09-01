@@ -1,6 +1,4 @@
-/* ==========================================
-   PROJECT DATA
-========================================== */
+
 
 const projects = [
 
@@ -245,9 +243,6 @@ const projects = [
 
 
 
-/* ==========================================
-   DOM ELEMENTS
-========================================== */
 
 const projectsContainer =
     document.querySelector(
@@ -346,9 +341,6 @@ const navLinks =
 
 
 
-/* ==========================================
-   DISPLAY PROJECTS
-========================================== */
 
 function displayProjects(projectList) {
 
@@ -477,10 +469,6 @@ function displayProjects(projectList) {
 
 
 
-/* ==========================================
-   PROJECT FILTERS
-========================================== */
-
 filterButtons.forEach(
     function (button) {
 
@@ -546,10 +534,6 @@ filterButtons.forEach(
 
 
 
-/* ==========================================
-   PROJECT BUTTON EVENTS
-========================================== */
-
 function addProjectButtonEvents() {
 
     const projectButtons =
@@ -588,9 +572,6 @@ function addProjectButtonEvents() {
 
 
 
-/* ==========================================
-   OPEN PROJECT MODAL
-========================================== */
 
 function openProjectModal(
     projectId
@@ -692,10 +673,6 @@ function openProjectModal(
 
 
 
-/* ==========================================
-   CLOSE PROJECT MODAL
-========================================== */
-
 function closeProjectModal() {
 
     projectModal.classList.remove(
@@ -759,9 +736,6 @@ document.addEventListener(
 
 
 
-/* ==========================================
-   PROJECT CARD INTERACTION
-========================================== */
 
 function addProjectCardInteraction() {
 
@@ -860,9 +834,7 @@ function addProjectCardInteraction() {
 
 
 
-/* ==========================================
-   MAGNETIC BUTTONS
-========================================== */
+
 
 const magneticButtons =
     document.querySelectorAll(
@@ -942,9 +914,6 @@ magneticButtons.forEach(
 
 
 
-/* ==========================================
-   CURSOR GLOW
-========================================== */
 
 document.addEventListener(
     "mousemove",
@@ -972,9 +941,7 @@ document.addEventListener(
 
 
 
-/* ==========================================
-   MOBILE MENU
-========================================== */
+
 
 menuButton.addEventListener(
     "click",
@@ -1013,9 +980,6 @@ navigationLinks.forEach(
 
 
 
-/* ==========================================
-   SCROLL REVEAL
-========================================== */
 
 const revealElements =
     document.querySelectorAll(
@@ -1077,10 +1041,6 @@ revealElements.forEach(
 );
 
 
-
-/* ==========================================
-   INITIALIZE
-========================================== */
 
 displayProjects(
     projects
