@@ -1,5 +1,3 @@
-
-
 const projects = [
 
     {
@@ -242,8 +240,6 @@ const projects = [
 ];
 
 
-
-
 const projectsContainer =
     document.querySelector(
         "#projectsContainer"
@@ -338,9 +334,6 @@ const navLinks =
     document.querySelector(
         "#navLinks"
     );
-
-
-
 
 function displayProjects(projectList) {
 
@@ -467,8 +460,6 @@ function displayProjects(projectList) {
 
 }
 
-
-
 filterButtons.forEach(
     function (button) {
 
@@ -532,8 +523,6 @@ filterButtons.forEach(
     }
 );
 
-
-
 function addProjectButtonEvents() {
 
     const projectButtons =
@@ -569,9 +558,6 @@ function addProjectButtonEvents() {
     );
 
 }
-
-
-
 
 function openProjectModal(
     projectId
@@ -671,8 +657,6 @@ function openProjectModal(
 
 }
 
-
-
 function closeProjectModal() {
 
     projectModal.classList.remove(
@@ -733,8 +717,6 @@ document.addEventListener(
 
     }
 );
-
-
 
 
 function addProjectCardInteraction() {
@@ -832,10 +814,6 @@ function addProjectCardInteraction() {
 
 }
 
-
-
-
-
 const magneticButtons =
     document.querySelectorAll(
         ".magnetic"
@@ -913,8 +891,6 @@ magneticButtons.forEach(
 );
 
 
-
-
 document.addEventListener(
     "mousemove",
     function (event) {
@@ -938,10 +914,6 @@ document.addEventListener(
 
     }
 );
-
-
-
-
 
 menuButton.addEventListener(
     "click",
@@ -977,6 +949,7 @@ navigationLinks.forEach(
 
     }
 );
+
 
 
 
@@ -1039,8 +1012,6 @@ revealElements.forEach(
 
     }
 );
-
-
 
 displayProjects(
     projects
